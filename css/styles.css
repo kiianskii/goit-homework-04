@@ -96,6 +96,8 @@ ul {
 }
 .header-navigation-item:hover {
   color: var(--OCEAN, #404bbf);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-navigation-item:hover::after {
@@ -103,11 +105,14 @@ ul {
   background: var(--OCEAN, #404bbf);
   width: 48px;
   height: 4px;
+  content: none;
 }
 
 .header-navigation-item:focus {
   color: var(--OCEAN, #404bbf);
   text-decoration: underline;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address {
@@ -132,9 +137,13 @@ ul {
 }
 .header-navigation-mail:hover {
   color: var(--OCEAN, #404bbf);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-navigation-mail:focus {
   color: var(--OCEAN, #404bbf);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Main, dark background */
@@ -183,9 +192,13 @@ ul {
 }
 .title-section-button:hover {
   background: var(--OCEAN, #404bbf);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .title-section-button:focus {
   background: var(--OCEAN, #404bbf);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Features */
 
@@ -391,6 +404,8 @@ ul {
 }
 .section-portfolio-card:hover .overlay {
   transform: translateY(0);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-portfolio-img {
