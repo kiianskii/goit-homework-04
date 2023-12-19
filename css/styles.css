@@ -523,7 +523,7 @@ ul {
 }
 
 .section-footer-list {
-  display: flex;
+  /* display: flex; */
 }
 
 .section-footer-item {
@@ -541,8 +541,8 @@ ul {
 }
 
 .footer-icon-item {
-  width: 40px;
   height: 40px;
+  width: 40px;
 }
 
 .footer-icon-ref {
